@@ -53,6 +53,7 @@ public class eCommerce_tc_2 extends AndroidBaseTest {
 		driver.findElement(By.xpath("//android.widget.TextView[@text='Argentina']")).click();
 		driver.findElement(By.id("com.androidsample.generalstore:id/btnLetsShop")).click();
 		AssertJUnit.assertTrue(driver.findElements(By.xpath("(//android.widget.Toast)[1]")).size()<1);
+		System.out.println("hai");
 		
 			
 	}
